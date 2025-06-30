@@ -1,0 +1,75 @@
+{
+  "base": {
+    "tabs": [
+      {
+        "name": "General",
+        "groups": [
+          {
+            "name": "Información del usuario",
+            "hidden": true,
+            "lines": [
+              [
+                {
+                  "name": "username"
+                },
+                {
+                  "name": "user_email"
+                }
+              ],
+              [
+                {
+                  "name": "nombre"
+                },
+                {
+                  "name": "activo"
+                }
+              ],
+              [
+                {
+                  "name": "password"
+                }
+              ],
+              [
+                {
+                  "name": "lang_id"
+                },
+                {
+                  "name": "force_reset"
+                },
+                {
+                  "name": "alertas_correo_electronico"
+                }
+              ],
+              [
+                {
+                  "name": "last_recovery_token"
+                },
+                {
+                  "name": "last_recovery_in"
+                },
+                {
+                  "name": "last_recovery_expires"
+                }
+              ],
+              [
+                {
+                  "name": "allowed_ips"
+                }
+              ],
+              [
+                {
+                  "name": "usuarios_roles"
+                }
+              ],
+              [
+                {
+                  "name": "usuarios_dimensiones"
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

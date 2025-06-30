@@ -1,0 +1,1 @@
+<p>Correo de prueba enviado correctamente con fecha {$1}</p>

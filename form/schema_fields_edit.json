@@ -1,0 +1,226 @@
+{
+	"base": {
+		"tabs": [
+			{
+				"name": "Información general",
+				"groups": [
+					{
+						"name": "",
+						"hidden": true,
+						"lines": [
+							[
+								{
+									"name": "table_id"
+								}
+							],
+							[
+								{
+									"name": "field"
+								},
+								{
+									"name": "type"
+								}
+							],
+							[
+								{
+									"name": "label"
+								},
+								{
+									"name": "field_order"
+								}
+							],
+							[
+								{
+									"name": "permiso_requerido"
+								}
+							]
+						]
+					},
+					{
+						"name": "Otras opciones",
+						"lines": [
+							[
+								{
+									"name": "editable"
+								},
+								{
+									"name": "hidden"
+								},
+								{
+									"name": "required"
+								},
+								{
+									"name": "no_editable_with_value"
+								}
+							],
+							[
+								{
+									"name": "no_real"
+								},
+								{
+									"name": "calculado"
+								},
+								{
+									"name": "allow_null"
+								}
+							],
+							[
+								{
+									"name": "tipo_icono"
+								},
+								{
+									"name": "label_icon"
+								},
+								{
+									"name": "label_text"
+								}
+							],
+							[
+								{
+									"name": "filter_options"
+								},
+								{
+									"name": "traducible"
+								},
+								{
+									"name": "field_format"
+								}
+							],
+							[
+								{
+									"name": "placeholder"
+								}
+							],
+							[
+								{
+									"name": "default_value"
+								},
+								{
+									"name": "help"
+								}
+							],
+							[
+								{
+									"name": "input_container_class"
+								}
+							]
+						]
+					}
+				]
+			},
+			{
+				"name": "Información específica según tipo",
+				"groups": [
+					{
+						"name": "Información específica según tipo",
+						"lines": [
+							[
+								{
+									"name": "enum_options"
+								},
+								{
+									"name": "enum_order"
+								}
+							],
+							[
+								{
+									"name": "file_options"
+								}
+							],
+							[
+								{
+									"name": "related_options"
+								},
+								{
+									"name": "related_multiple"
+								},
+								{
+									"name": "related_view"
+								}
+							],
+							[
+								{
+									"name": "map_options"
+								}
+							],
+							[
+								{
+									"name": "decimal_precission"
+								}
+							],
+							[
+								{
+									"name": "max_size"
+								}
+							],
+							[
+								{
+									"name": "code_options"
+								}
+							]
+						]
+					},
+					{
+						"name": "Otras opciones",
+						"lines": [
+							[
+								{
+									"name": "editable"
+								},
+								{
+									"name": "hidden"
+								},
+								{
+									"name": "required"
+								},
+								{
+									"name": "no_editable_with_value"
+								}
+							],
+							[
+								{
+									"name": "no_real"
+								},
+								{
+									"name": "calculado"
+								},
+								{
+									"name": "allow_null"
+								},
+								{
+									"name": "permiso_requerido"
+								}
+							],
+							[
+								{
+									"name": "tipo_icono"
+								},
+								{
+									"name": "label_icon"
+								}
+							],
+							[
+								{
+									"name": "placeholder"
+								}
+							],
+							[
+								{
+									"name": "default_value"
+								},
+								{
+									"name": "help"
+								}
+							],
+							[
+								{
+									"name": "input_container_class"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

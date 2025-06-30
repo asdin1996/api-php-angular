@@ -1,0 +1,78 @@
+{
+	"filters": {
+		"tabs": [
+			{
+				"name": "",
+				"groups": [
+					{
+						"name": "Filtros",
+						"expanded": false,
+						"lines": [
+							[
+								{
+									"name": "tipo"
+								},
+								{
+									"name": "estado"
+								},
+								{
+									"name": "destacado"
+								}
+							],
+							[
+								{
+									"name": "filtro_tipo"
+								},
+								{
+									"name": "datetime_add"
+								}
+							],
+							[
+								{
+									"name": "asunto"
+								}
+							],
+							[
+								{
+									"name": "cuerpo"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	},
+	"wizard": {
+		"responder": {
+			"tabs": [
+				{
+					"name": "Información general",
+					"groups": [
+						{
+							"hidden": true,
+							"name": "Respuesta",
+							"lines": [
+								[
+									{
+										"name": "wizard1_cuerpo"
+									}
+								],
+								[
+									{
+										"name": "wizard1_adjunto"
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"wizardOptions": {
+		"responder": {
+			"width": "100%"
+		}
+	}
+}

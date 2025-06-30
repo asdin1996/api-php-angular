@@ -1,0 +1,32 @@
+{
+    "wizard": {
+        "exportarJSON": {
+            "tabs": [
+                {
+                    "name": "",
+                    "groups": [
+                        {
+                            "hidden": true,
+                            "name": "",
+                            "lines": [
+                                [
+                                    {
+                                        "name": "wizard1_idiomas"
+                                    },
+                                    {
+                                        "name": "wizard1_tipos"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "wizardOptions": {
+        "exportarJSON": {
+            "width": "100%"
+        }
+    }
+}

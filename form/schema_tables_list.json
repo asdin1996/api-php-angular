@@ -1,0 +1,29 @@
+{
+	"wizard": {
+		"createFieldsFromTableHead": {
+			"tabs": [
+				{
+					"name": "Información general",
+					"groups": [
+						{
+							"hidden": true,
+							"name": "Respuesta",
+							"lines": [
+								[
+									{
+										"name": "wizard1_tablename"
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"wizardOptions": {
+		"createFieldsFromTableHead": {
+			"width": "100%"
+		}
+	}
+}

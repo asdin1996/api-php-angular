@@ -1,0 +1,42 @@
+{
+	"base": {
+		"tabs": [
+			{
+				"name": "Información general",
+				"groups": [
+					{
+						"hidden": true,
+						"name": "",
+						"lines": [
+							[
+								{
+									"name": "cronjob_id"
+								},
+								{
+									"name": "datetime_inicio"
+								},
+								{
+									"name": "datetime_fin"
+								},
+								{
+									"name": "is_error"
+								}
+							]
+						]
+					},
+					{
+						"expanded": false,
+						"name": "Salida de ejecución",
+						"lines": [
+							[
+								{
+									"name": "last_result"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

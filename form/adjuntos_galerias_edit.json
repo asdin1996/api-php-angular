@@ -1,0 +1,32 @@
+{
+	"base": {
+		"tabs": [
+			{
+				"name": "Información general",
+				"groups": [
+					{
+						"hidden": true,
+						"name": "",
+						"lines": [
+							[
+								{
+									"name": "file"
+								}
+								],
+							[
+								{
+									"name": "descripcion"
+								}
+								],
+							[
+								{
+									"name": "order"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

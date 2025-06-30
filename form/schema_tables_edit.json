@@ -1,0 +1,210 @@
+{
+	"base": {
+		"tabs": [
+			{
+				"name": "Opciones básicas",
+				"groups": [
+					{
+						"name": "",
+						"hidden": true,
+						"lines": [
+							[
+								{
+									"name": "table"
+								}
+							],
+							[
+								{
+									"name": "api_call"
+								}
+							],
+							[
+								{
+									"name": "entity_name_one"
+								},
+								{
+									"name": "entity_name_multiple"
+								},
+								{
+									"name": "name_field"
+								}
+							],
+							[
+								{
+									"options": {
+										"flex": 1
+									}
+								},
+								{
+									"name": "allow_crud_add"
+								},
+								{
+									"name": "allow_crud_edit"
+								},
+								{
+									"name": "allow_crud_delete"
+								},
+								{
+									"name": "allow_crud_view"
+								},
+								{
+									"name": "allow_export_pdf"
+								},
+								{
+									"name": "allow_export_xls"
+								}
+							],
+							[
+								{
+									"name": "include_base_fields"
+								}
+							],
+							[
+								{
+									"name": "related_config"
+								}
+							],
+							[
+								{
+									"name": "series"
+								}
+							]
+						]
+					}
+				]
+			},
+			{
+				"name": "Opciones de listado",
+				"groups": [
+					{
+						"name": "",
+						"hidden": true,
+						"lines": [
+							[
+								{
+									"name": "default_order"
+								}
+							],
+							[
+								{
+									"name": "force_open_filters"
+								},
+								{
+									"name": "autorefresh"
+								}
+							],
+							[
+								{
+									"name": "page_size"
+								},
+								{
+									"name": "page_size_options"
+								},
+								{
+									"name": "pagination_top"
+								},
+								{
+									"name": "pagination_bottom"
+								}
+							]
+						]
+					},
+					{
+						"name": "Visibilidad de campos",
+						"hidden": false,
+						"lines": [
+							[
+								{
+									"name": "list_fields"
+								},
+								{
+									"name": "mobile_fields"
+								},
+								{
+									"name": "default_order"
+								}
+							],
+							[
+
+								{
+									"name": "modal_list_fields"
+								},
+								{
+									"name": "modal_mobile_fields"
+								}
+							],
+							[
+								{
+									"name": "filter_fields"
+								},
+								{
+									"name": "modal_filter_fields"
+								}
+							]
+						]
+					}
+				]
+			},
+			{
+				"name": "Seguridad",
+				"groups": [
+					{
+						"name": "",
+						"hidden": true,
+						"lines": [
+							[
+								{
+									"name": "permisos"
+								}
+							]
+						]
+					}
+				]
+			},
+			{
+				"name": "Acciones",
+				"groups": [
+					{
+						"name": "",
+						"hidden": true,
+						"lines": [
+							[
+								{
+									"name": "custom_actions"
+								}
+							]
+						]
+					}
+				]
+			},
+			{
+				"name": "Visibilidad de campos",
+				"groups": [
+					{
+						"name": "",
+						"hidden": true,
+						"lines": [
+
+						]
+					}
+				]
+			},
+			{
+				"name": "Otra configuración",
+				"groups": [
+					{
+						"name": "",
+						"hidden": true,
+						"lines": [
+							[
+								{
+									"name": "condition_for_lines"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

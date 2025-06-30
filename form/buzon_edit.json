@@ -1,0 +1,100 @@
+{
+  "base": {
+    "tabs": [
+      {
+        "name": "Información general",
+        "groups": [
+          {
+            "hidden": true,
+            "name": "",
+            "lines": [
+              [
+                {
+                  "name": "tipo"
+                },
+                {
+                  "name": "datetime_add"
+                },
+                {
+                  "name": "estado"
+                },
+                {
+                  "name": "datetime_leido"
+                }
+              ],
+              [
+                {
+                  "name": "user_add_id"
+                },
+                {
+                  "name": "usuario_destino_id"
+                }
+              ],
+              [
+                {
+                  "name": "tipo_usuario_origen_label"
+                },
+                {
+                  "name": "tipo_usuario_origen_name"
+                },
+                {
+                  "name": "tipo_usuario_destino_label"
+                },
+                {
+                  "name": "tipo_usuario_destino_name"
+                }
+              ],
+              [
+                {
+                  "name": "asunto"
+                }
+              ],
+              [
+                {
+                  "name": "adjunto"
+                }
+              ],
+              [
+                {
+                  "name": "cuerpo"
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "wizard": {
+    "responder": {
+      "tabs": [
+        {
+          "name": "Información general",
+          "groups": [
+            {
+              "hidden": true,
+              "name": "Respuesta",
+              "lines": [
+                [
+                  {
+                    "name": "wizard1_cuerpo"
+                  }
+                ],
+                [
+                  {
+                    "name": "wizard1_adjunto"
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wizardOptions": {
+    "responder": {
+      "width": "100%"
+    }
+  }
+}

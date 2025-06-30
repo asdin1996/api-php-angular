@@ -1,0 +1,42 @@
+{
+	"base": {
+		"tabs": [
+			{
+				"name": "General",
+				"groups": [
+					{
+						"name": "Información del usuario",
+						"hidden": true,
+						"lines": [
+							[
+								{
+									"name": "nombre"
+								}
+							],
+							[
+								{
+									"name": "username"
+								}
+							],
+							[
+								{
+									"name": "user_email"
+								}
+							],
+							[
+								{
+									"name": "password"
+								}
+							],
+							[
+								{
+									"name": "alertas_correo_electronico"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

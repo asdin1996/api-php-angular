@@ -1,0 +1,51 @@
+{
+	"base": {
+		"tabs": [
+			{
+				"name": "Información general",
+				"groups": [
+					{
+						"hidden": true,
+						"name": "",
+						"lines": [
+							[
+								{
+									"name": "nombre"
+								}
+							],
+							[
+								{
+									"name": "script_url"
+								}
+							],
+							[
+								{
+									"name": "params"
+								}
+							],
+							[
+								{
+									"name": "activa"
+								},
+								{
+									"name": "intervalo"
+								},
+								{
+									"name": "intervalo_cron"
+								}
+							],
+							[
+								{
+									"name": "datetime_last"
+								},
+								{
+									"name": "datetime_next"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

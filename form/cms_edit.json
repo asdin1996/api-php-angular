@@ -1,0 +1,38 @@
+{
+  "base": {
+    "tabs": [
+      {
+        "name": "Información general",
+        "groups": [
+          {
+            "name": "Información básica",
+            "hidden": true,
+            "lines": [
+              [
+                {
+                  "name": "tipo"
+                },
+                {
+                  "name": "orden"
+                },
+                {
+                  "name": "class"
+                }
+              ],
+              [
+                {
+                  "name": "nombre"
+                }
+              ],
+              [
+                {
+                  "name": "texto"
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

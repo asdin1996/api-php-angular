@@ -1,0 +1,33 @@
+{
+	"filters": {
+		"tabs": [
+			{
+				"name": "",
+				"groups": [
+					{
+						"name": "Filtros",
+						"expanded": false,
+						"lines": [
+							[
+								{
+									"name": "id"
+								},
+								{
+									"name": "origen"
+								},
+								{
+									"name": "estado"
+								}
+							],
+							[
+								{
+									"name": "texto"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

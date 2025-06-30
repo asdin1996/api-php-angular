@@ -1,0 +1,44 @@
+### EKIBA - EVITAR ERROR CORS
+### Nota: si es posible, en vez de * poner el dominio exacto desde el que se vaya a permitir la petición, por seguridad
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Headers "Content-Type,Authorization"
+Header always set Access-Control-Allow-Methods "GET,POST"
+Header always set Access-Control-Expose-Headers "Content-Security-Policy, Location"
+Header always set Access-Control-Max-Age "600"
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirecciones - Acciones individuales
+    RewriteRule ^login$ /api/index.php?&action=login [L]
+    RewriteRule ^login_sso_from_cookie$ /api/index.php?&action=login_sso_from_cookie [L]
+    RewriteRule ^recover$ /api/index.php?&action=recover [L]
+    RewriteRule ^recover_start$ /api/index.php?&action=recover_start [L]
+    RewriteRule ^recover_end$ /api/index.php?&action=recover_end [L]
+    RewriteRule ^create_user$ /api/index.php?&action=create_user [L]
+    RewriteRule ^alertas_usuario$ /api/index.php?&action=alertas_usuario [L]
+    RewriteRule ^set_lang$ /api/index.php?&action=set_lang [L]
+    RewriteRule ^redsysOk/([^/]+)$ /api/index.php?&action=redsysOk&operacion=$1 [L]
+    RewriteRule ^redsysKo/([^/]+)$ /api/index.php?&action=redsysKo&operacion=$1 [L]
+    RewriteRule ^redsysRequest/([^/]+)$ /api/index.php?&action=redsysRequest&operacion=$1 [L]
+    #RewriteRule ^redsysRequest$ /api/index.php?&action=redsysRequest [L]
+    RewriteRule ^redsysNotify$ /api/index.php?&action=redsysNotify [L]
+    RewriteRule ^debug/([^/]+)$ /api/index.php?debug=1&type=$1 [L]
+
+    # Redirecciones genéricas
+    RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ /api/index.php?table=$1&action=$2&id=$3 [L]
+    RewriteRule ^([^/]+)/([^/]+)/$ /api/index.php?table=$1&action=$2 [L]
+    RewriteRule ^([^/]+)/([^/]+)$ /api/index.php?table=$1&action=$2 [L]
+    RewriteRule ^save/$ /api/index.php?&action=save [L]
+    RewriteRule ^save$ /api/index.php?&action=save [L]
+    RewriteRule ^menu$ /api/index.php?&action=menu [L]
+    RewriteRule ^home$ /api/index.php?&action=home [L]
+
+</IfModule>
+
+# Permitir header Auth
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]

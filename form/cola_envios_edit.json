@@ -1,0 +1,68 @@
+{
+	"base": {
+		"tabs": [
+			{
+				"name": "Información general",
+				"groups": [
+					{
+						"hidden": true,
+						"name": "",
+						"lines": [
+							[
+								{
+									"name": "estado"
+								},
+								{
+									"name": "datetime_ultimo_intento"
+								},
+								{
+									"name": "numero_intentos"
+								}
+							],
+							[
+								{
+									"name": "observaciones"
+								}
+							],
+							[
+								{
+									"name": "para"
+								},
+								{
+									"name": "copia"
+								},
+								{
+									"name": "copia_oculta"
+								},
+								{
+									"name": "es_interno"
+								}
+							],
+							[
+								{
+									"name": "asunto"
+								}
+							],
+							[
+								{
+									"name": "plantilla"
+								},
+								{
+									"name": "after_send"
+								}
+							],
+							[
+								{
+									"name": "params"
+								},
+								{
+									"name": "adjuntos"
+								}
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}
